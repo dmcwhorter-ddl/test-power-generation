@@ -1,0 +1,10 @@
+convertdate
+pyqt5
+jupyter-client
+nbformat
+papermill
+pystan==2.19.1.1
+plotly
+dash
+requests
+nbconvert
