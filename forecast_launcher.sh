@@ -1,8 +1,8 @@
-python -m venv --system-site-packages .
+#python -m venv --system-site-packages .
 
-source ./bin/activate
+#source ./bin/activate
 
-pip install "pystan==2.19.1.0" "plotly<4.0.0" "papermill<2.0.0" requests dash
-pip install prophet
+#pip install "pystan==2.19.1.0" "plotly<4.0.0" "papermill<2.0.0" requests dash
+#pip install prophet
 
 papermill Forecast_Power_Generation_Launcher.ipynb forecast.ipynb -p start_date "$1" -p fuel_type $2
