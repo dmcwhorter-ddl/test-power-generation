@@ -2,7 +2,7 @@ convertdate
 pyqt5
 jupyter-client
 nbformat
-papermill<2.0.0
+papermill
 pystan==2.19.1.1
 plotly
 dash
