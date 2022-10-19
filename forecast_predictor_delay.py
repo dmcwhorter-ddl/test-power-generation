@@ -17,5 +17,5 @@ def predict(year, month, day):
     predicted generation in MW
     '''
     ds = pd.DataFrame({'ds': [datetime.datetime(year,month,day)]})
-    time.sleep(15)
+    time.sleep(20)
     return m.predict(ds)['yhat'].values[0]
